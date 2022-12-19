@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/bg-stars.svg') center center/cover no-repeat;
+    background-color: #191a24;
+    
+    font-family: 'Red Hat Text', sans-serif;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.warning {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 4px;
+}
+
+.timer {
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 50px;
+}
+
+.timer .count-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer .count-container .count{
+    background-color: #343650;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer .count-container .count > strong {
+    color: #fb6087;
+    font-size: 22pt;
+}
+
+.timer .count-container small {
+    color:#8486a9;
+    margin-top: 15px;
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+footer {
+    width: 100vw;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url('../assets/pattern-hills.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer .icons {
+    display: flex;
+    gap: 30px;
+}
+
+footer .icons img {
+    cursor: pointer;
+}
